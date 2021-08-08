@@ -9,15 +9,15 @@
         <dbms type="postgresql"/>
     </preConditions>
 
-    <changeSet id="1" author="at">
-        <tagDatabase tag="1.0_db_init"/>
-    </changeSet>
+<!--    <changeSet id="1" author="at">-->
+<!--        <tagDatabase tag="1.0_db_init"/>-->
+<!--    </changeSet>-->
 
     <include file="1.0/db_init.xml" relativeToChangelogFile="true"/>
 
-    <changeSet id="2" author="at">
-        <tagDatabase tag="1.1_customer_add_city"/>
-    </changeSet>
+<!--    <changeSet id="2" author="at">-->
+<!--        <tagDatabase tag="1.1_customer_add_city"/>-->
+<!--    </changeSet>-->
 
     <include file="1.1/customer_add_city.xml" relativeToChangelogFile="true"/>
 

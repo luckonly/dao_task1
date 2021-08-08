@@ -1,4 +1,4 @@
-CREATE SCHEMA netology;
+CREATE SCHEMA if not exists netology;
 
 create table if not exists netology.customers
 (
